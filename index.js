@@ -131,7 +131,6 @@ bot.on('callback_query', function onCallbackQuery(callbackQuery) {
 
     if (action.split('/')[0] === 'checkout_salling'){
         axios.get(base_url + action).then(res => {
-            bot.sendMessage(msg.chat.id, 'Zakazning statusi o\'zgartirildi.')
         }).catch(err => {
             console.log(err)
         })
@@ -139,7 +138,6 @@ bot.on('callback_query', function onCallbackQuery(callbackQuery) {
 
     if (action.split('/')[0] === 'checkout_saled'){
         axios.get(base_url + action).then(res => {
-            bot.sendMessage(msg.chat.id, 'Zakazning statusi o\'zgartirildi.')
         }).catch(err => {
             console.log(err)
         })
