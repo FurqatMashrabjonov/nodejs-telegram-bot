@@ -4,7 +4,7 @@
  */
 
 
-const TOKEN = '1715611825:AAFH2GV73zVMmwPZ9fkG06EbLGzuhaE3zCI';
+const TOKEN = '1700851435:AAGc9OzdRRtAaaf0w-9ZH2FNrNYlk60RsUw';
 const TelegramBot = require('node-telegram-bot-api');
 const request = require('request');
 const base_url = 'https://baraka-shop.uz/api/'
